@@ -1,0 +1,20 @@
+{
+  "name": "Copy selected tabs to clipboard",
+  "description": "Copy selected tabs URLs to clipboard when you click the icon",
+  "manifest_version": 2,
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "clipboardWrite"
+  ],
+  "browser_action": {
+    "default_icon": "images/8675613_ic_fluent_tabs_regular_icon.png",
+    "default_title": "Copy selected tabs URLs to clipboard",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
